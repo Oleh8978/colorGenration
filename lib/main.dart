@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(ColorChanger());
 
 class ColorChanger extends StatefulWidget{
     @override
