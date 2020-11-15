@@ -8,9 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter installed',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('TestAPP'),
-        ),
+        appBar: null,
         body: Center(
           child: Text('Hello World'),
         ),
