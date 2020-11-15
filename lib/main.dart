@@ -2,7 +2,18 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class ColorChanger extends StatefulWidget{
+    @override
+    _ColorChangerState createState() => _ColorChangerState();
+}
+
+
+
+class _ColorChangerState   extends State<ColorChanger> {
+     @override
+  void initState() {
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
